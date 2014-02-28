@@ -2,21 +2,23 @@ drupal_development_tools_feature
 ================================
 
 <h2> Instalation: </h2>
-Clone this repository into your features directory.
-Enable it with drush or by admin/modules path:
-<code>drush en drupal_development_tools_feature</code>
+<ul>
+  <li>Clone this repository into your features directory</li>
+  <li>
+    Enable it with drush or by admin/modules path:
+    <code>drush en drupal_development_tools_feature</code>
+  </li>
+</ul>
 
 <h2> Features: </h2>
 <h3>Module dependencies:</h3>
 <ul>
-  <li>Devel</li>
-  <li>Coder</li>
-  <li>coder_review</li>
-  <li>Features</li>
-  <li>Fe_block</li>
-  <li>strongarm</li>
-  <li>CTools</li>
-  <li>Coder</li>
+  <li>Devel https://drupal.org/project/devel</li>
+  <li>Coder https://drupal.org/project/coder</li>
+  <li>Features https://drupal.org/project/features</li>
+  <li>Features Extra https://drupal.org/project/features_extra</li>
+  <li>Strongarm : https://drupal.org/project/Strongarm</li>
+  <li>CTools : https://drupal.org/project/ctools</li>
 </ul>
 
 <h3>Basic configurations</h3>
@@ -33,8 +35,8 @@ Enable it with drush or by admin/modules path:
   <li>
     <b>Settings set:</b>
     <ul>
-      <li>Display redirection page</li>
-      <li>Display machine names of permissions and modules</li>
+      <li>Checked : Display redirection page</li>
+      <li>Checked : Display machine names of permissions and modules</li>
       <li>Error handlers : Standard Drupal</li>
       <li>Krumo display: Default</li>
     </ul>
@@ -42,7 +44,9 @@ Enable it with drush or by admin/modules path:
 </ul>
 
 <h4>Coder:</h4>
-<b>Settings set:</b>
+<ul>
+  <li>
+    <b>Settings set:</b>
     <ul>
       <li>Checked : Drupal Coding Standards </li>
       <li>Checked : Drupal Commenting Standards</li>
@@ -52,6 +56,9 @@ Enable it with drush or by admin/modules path:
       <li>Checked : Release standards</li>
       <li>Checked : include files (inc | php | install | test)</li>
     </ul>
+  </li>
+</ul>
+
 <h3>Blocks:</h3>
 <ul>
   <li>Switch user block (footer region)</li>
